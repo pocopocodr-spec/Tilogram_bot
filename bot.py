@@ -96,8 +96,7 @@ async def cmd_signal(message: Message):
     )
     try:
         signal = await engine.get_signal()
-        await wait_msg.delete()
-        await message.answer(signal, parse_mode="HTML")
+        await wait_msg.edit_text(signal, parse_mode="HTML")
     except Exception as e:
         logger.error(f"Ошибка get_signal: {e}", exc_info=True)
         await wait_msg.edit_text(
