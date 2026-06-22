@@ -1,7 +1,0 @@
-aiogram==3.13.0
-yfinance
-pandas
-numpy
-aiohttp
-beautifulsoup4
-lxml
