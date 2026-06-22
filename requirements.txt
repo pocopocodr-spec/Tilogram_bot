@@ -1,0 +1,7 @@
+aiogram==3.7.0
+yfinance==0.2.38
+pandas==2.2.2
+numpy==1.26.4
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+lxml==5.2.2
